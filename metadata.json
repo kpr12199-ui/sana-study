@@ -1,0 +1,6 @@
+{
+  "name": "學生學習歷程個人網站 - 柯沛絨",
+  "description": "柯沛絨的高中學習歷程個人作品集網站，包含個人簡介、精選作品、學習歷程時間軸、技能與管理後台",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

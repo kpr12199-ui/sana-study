@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+  }
+  
+  body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Delicate custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Vibrant Palette Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.gradient-pastel-bg {
+  background: linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 50%, #FDF2F8 100%);
+}
+
+.vibrant-gradient-badge {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(244, 114, 182, 0.15) 100%);
+}
+
+.vibrant-glow-sky {
+  box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.25);
+}
+
+.vibrant-glow-pink {
+  box-shadow: 0 10px 30px -10px rgba(244, 114, 182, 0.25);
+}
